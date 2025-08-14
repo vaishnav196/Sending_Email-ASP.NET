@@ -44,7 +44,7 @@ namespace Email_Integration
 
           
             SmtpClient smtp = new SmtpClient("smtp.gmail.com");
-            smtp.Credentials = new NetworkCredential("vaish00721@gmail.com", "kzuvycbbvbrdempp");
+            smtp.Credentials = new NetworkCredential("", "");
           
             smtp.Port = 587;
             smtp.EnableSsl = true;
